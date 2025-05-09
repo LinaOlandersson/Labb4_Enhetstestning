@@ -1,0 +1,24 @@
+[LibrarySystem] / [AddBook] / [row 27]
+Possible to add a book without ISBN.
+
+[LibrarySystem] / [AddBook] / [row 27]
+Possible to add a book with ISBN that already exists.
+
+[LibrarySystem] / [RemoveBook] / [row 40]
+Possible to remove a borrowed book.
+
+[LibrarySystem] / [SearchByISBN] / [row 51]
+Method returns an object and not a list. A new method needs to be implemented
+in order to return a list of books. Implementing new metod ReturnManyByISBN()
+
+[LibrarySystem] / [SearchManyByISBN] / [row 57]
+Method not case insensitive.
+
+[LibrarySystem] / [SearchByTitle] / [row 62]
+Not possible to search title by part of name and it is case sensitive.
+
+[LibrarySystem] / [ReturnBook] / [row 82]
+Returning a book does not change BorrowDate to null.
+
+[LibrarySystem] / [CalculateFee] / [row 101]
+Late fee is wrongly calculated.
